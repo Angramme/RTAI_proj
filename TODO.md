@@ -5,7 +5,7 @@
 - Implementation:
     - Think about batch dimension in dimensions and shapes
     - Dont get screwed on that, always be aware of the shape sizes
-    - the +cpu in the versions sometimes bugs and does not want to install
+    - the +cpu in the versions sometimes bugs and does not want to install, (because its CPU only anyways on some processors, for example Apple M1)
 - Myybe install TQDM locally (instead of Matplotlib)
 - _**We do not need branch and bound**_, use DeepPoly ReLU Relaxations instead (look at slides)
 - Think about how to find good slopes
